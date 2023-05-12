@@ -352,7 +352,7 @@ footer {
     }
     .footer-container{
         width: 100%;
-        height: 550px;
+        // height: 550px;
         background-color: #00252E;
 
         .info-footer{
@@ -360,16 +360,51 @@ footer {
             padding-top: 50px;
             .subscribe {
                 width: 100%;
+                margin-bottom: 50px;
 
                 h4{
                     margin: 0px;
                     padding: 10px;
+                    color: white;
+                    font-family: @poppins;
+                    font-weight: 700;
+                    font-size: 20px;
+                    text-transform: uppercase;
                 }
                 p{
                     padding: 10px;
+                    text-align: left;
+                    font-size: 18px;
+                    color: white;
+                    font-family: @Opensans;
+                    font-weight: 600;
                 }
                 .formulario{
+                    width: auto;
                     padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+
+                    .email{
+                        width: 95%;
+                        height: 50px;
+                        border-radius: 10px;
+                        font-size: 30px;
+                        border: 1px solid #00141C;
+                    }
+                    .btn-subscribe{
+                        width: 40%;
+                        height: 50px;
+                        margin-top: 15px;
+                        border-radius: 10px;
+                        background-color: #FE52C0;
+                        color: #FFE8FB;
+                        font-family: @Opensans;
+                        font-weight: 700;
+                        font-size: 18px;
+                        border: 1px solid #23072E;
+                    }
                 }
             }
         }
