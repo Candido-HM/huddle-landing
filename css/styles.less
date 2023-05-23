@@ -111,6 +111,10 @@ header {
                 font-weight: 700;
                 margin-bottom: 60px;
             }
+            .btn-info:hover{
+                background-color: #FF8ED6;
+                cursor: pointer;
+            }
         }
     }
     .img-date {
@@ -339,6 +343,10 @@ header {
             font-weight: 400;
             border: 1px solid #D671B1;
         }
+        .btn-started:hover{
+            background-color: #FF8ED6;
+            cursor: pointer;
+        }
     }
 }
 
@@ -405,6 +413,10 @@ footer {
                         font-size: 18px;
                         border: 1px solid #23072E;
                     }
+                    .btn-subscribe:hover{
+                        background-color: #FF8ED6;
+                        cursor: pointer;
+                    }
                 }
             }
             .huddle {
@@ -462,16 +474,54 @@ footer {
                 background: no-repeat 50%/ 60% url('/images/icon-facebook.svg');
                 filter: invert(1);
             }
+            .icon-facebook:hover{
+                filter: invert(0.4) sepia(1) hue-rotate(150deg) saturate(1000%);
+                cursor: pointer;
+            }
             .icon-instagram{
                 width: 50px;
                 background: no-repeat 50%/ 60% url('/images/icon-instagram.svg');
                 filter: invert(1);
+            }
+            .icon-instagram:hover{
+                filter: invert(0.4) sepia(1) hue-rotate(150deg) saturate(1000%);
+                cursor: pointer;
             }
             .icon-twiter{
                 width: 50px;
                 background: no-repeat 50%/ 60% url('/images/icon-twitter.svg');
                 filter: invert(1);
             }
+            .icon-twiter:hover{
+                filter: invert(0.4) sepia(1) hue-rotate(150deg) saturate(1000%);
+                cursor: pointer;
+            }
         }
     }
 }
+
+//Media queries
+@media screen and (min-width: 360px) {
+    .container{
+        .communities {
+            .img-comunities{
+                height: 60px;
+            }
+        }
+        .messages {
+            .img-messages{
+                height: 60px;
+            }
+        }
+    }
+    footer{
+        .footer-container{
+            height: 850px;
+        }
+    }
+}
+
+// @media screen and (min-width: 480px) {}
+// @media screen and (min-width: 760px) {}
+// @media screen and (min-width: 950px) {}
+// @media screen and (min-width: 1440px) {}
