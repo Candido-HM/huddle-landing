@@ -545,3 +545,74 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     background-size: 50%;
   }
 }
+@media screen and (min-width: 760px) {
+  header .content-header .logo img {
+    width: 65%;
+  }
+  header .content-header .options .btn-header {
+    width: 45%;
+  }
+  .container .info-1 {
+    margin-top: 80px;
+  }
+  .container .info-1 .btn .btn-info {
+    width: 50%;
+    height: 50px;
+  }
+  .container .img-date {
+    height: 400px;
+    background-size: 60%;
+  }
+  .container .communities .img-comunities {
+    height: 85px;
+    background-position: 50%;
+  }
+  .container .messages .img-messages {
+    height: 85px;
+    background-position: 50%;
+  }
+  .container .seccion-grow .grow-info {
+    height: 700px;
+  }
+  .container .seccion-grow .grow-info .img-grop {
+    height: 500px;
+  }
+  .container .seccion-grow .grow-info .info-grow {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .container .seccion-flowing {
+    height: 700px;
+  }
+  .container .seccion-flowing .img-flowing {
+    height: 500px;
+  }
+  .container .seccion-flowing .info-flowing .flowing {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .container .seccion-users .info-users {
+    height: 700px;
+  }
+  .container .seccion-users .info-users .img-users {
+    height: 500px;
+  }
+  .container .seccion-users .info-users .text-users .users {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .container .ready .btn-started {
+    width: 55%;
+  }
+  footer .footer-container {
+    height: 760px;
+  }
+  footer .footer-container .info-footer .huddle .phone .icon-phone {
+    width: 15%;
+    background-position: 25%;
+  }
+  footer .footer-container .info-footer .huddle .correo .icon-correo {
+    width: 15%;
+    background-position: 25%;
+  }
+}
