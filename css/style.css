@@ -487,11 +487,16 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   cursor: pointer;
 }
 @media screen and (min-width: 360px) {
+  .container .img-date {
+    background-size: 82%;
+  }
   .container .communities .img-comunities {
     height: 60px;
+    background-size: 15%;
   }
   .container .messages .img-messages {
     height: 60px;
+    background-size: 15%;
   }
   footer .footer-container {
     height: 850px;
