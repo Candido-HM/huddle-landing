@@ -67,7 +67,7 @@ header .content-header .options .btn-header {
   border: 1px solid #C375A5;
   box-shadow: 1px 1px 2px #FFE4FC inset, 1px 1px 1px #FFE8FE;
   color: #DB7BBA;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 400;
   transition: all 300ms;
 }
@@ -89,7 +89,7 @@ header .content-header .options .btn-header:hover {
   color: #04232D;
   text-align: center;
   font-size: 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
 }
 .container .info-1 p {
@@ -97,7 +97,7 @@ header .content-header .options .btn-header:hover {
   text-align: center;
   font-size: 20px;
   color: #04232D;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 600;
   margin-bottom: 50px;
 }
@@ -116,7 +116,7 @@ header .content-header .options .btn-header:hover {
   border: 1px solid #DE64B1;
   border-radius: 25px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 700;
   margin-bottom: 60px;
 }
@@ -144,7 +144,7 @@ header .content-header .options .btn-header:hover {
   text-align: center;
   margin-bottom: auto;
   color: #04232D;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   font-size: 50px;
 }
@@ -153,7 +153,7 @@ header .content-header .options .btn-header:hover {
   height: 50px;
   margin-top: 0px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 400;
   color: #ACADAF;
   font-size: 18px;
@@ -176,7 +176,7 @@ header .content-header .options .btn-header:hover {
   margin-top: 5px;
   margin-bottom: auto;
   color: #04232D;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   font-size: 50px;
 }
@@ -185,7 +185,7 @@ header .content-header .options .btn-header:hover {
   height: 50px;
   margin-top: 5px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 400;
   color: #ACADAF;
   font-size: 18px;
@@ -210,7 +210,7 @@ header .content-header .options .btn-header:hover {
   background: no-repeat 50% 50% / 60% url('/images/illustration-grow-together.svg');
 }
 .container .seccion-grow .grow-info h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   color: #04232D;
   text-align: center;
@@ -221,7 +221,7 @@ header .content-header .options .btn-header:hover {
   padding: 10px;
   margin-top: auto;
   color: #04232D;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 18px;
@@ -245,7 +245,7 @@ header .content-header .options .btn-header:hover {
   width: 100%;
 }
 .container .seccion-flowing .info-flowing h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   color: #04232D;
   text-align: center;
@@ -256,7 +256,7 @@ header .content-header .options .btn-header:hover {
   padding: 10px;
   margin-top: auto;
   color: #04232D;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 18px;
@@ -285,7 +285,7 @@ header .content-header .options .btn-header:hover {
   margin-bottom: 15px;
 }
 .container .seccion-users .info-users .text-users h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   color: #04232D;
   text-align: center;
@@ -296,7 +296,7 @@ header .content-header .options .btn-header:hover {
   padding: 10px;
   margin-top: auto;
   color: #04232D;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 18px;
@@ -315,7 +315,7 @@ header .content-header .options .btn-header:hover {
   flex-direction: column;
 }
 .container .ready h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   color: #04232D;
   text-align: center;
@@ -329,7 +329,7 @@ header .content-header .options .btn-header:hover {
   background-color: #FB54BE;
   border-radius: 30px;
   color: #FFE8FF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 400;
   border: 1px solid #D671B1;
 }
@@ -344,6 +344,7 @@ footer .footer-top {
 }
 footer .footer-container {
   width: 100%;
+  height: 900px;
   background-color: #00252E;
 }
 footer .footer-container .info-footer {
@@ -358,7 +359,7 @@ footer .footer-container .info-footer .subscribe h4 {
   margin: 0px;
   padding: 10px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, sans-serif;
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
@@ -368,7 +369,7 @@ footer .footer-container .info-footer .subscribe p {
   text-align: left;
   font-size: 18px;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 600;
 }
 footer .footer-container .info-footer .subscribe .formulario {
@@ -392,8 +393,72 @@ footer .footer-container .info-footer .subscribe .formulario .btn-subscribe {
   border-radius: 10px;
   background-color: #FE52C0;
   color: #FFE8FB;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, sans-serif;
   font-weight: 700;
   font-size: 18px;
   border: 1px solid #23072E;
+}
+footer .footer-container .info-footer .huddle {
+  width: 100%;
+  height: auto;
+}
+footer .footer-container .info-footer .huddle .logo-huddle {
+  width: 100%;
+  height: 70px;
+}
+footer .footer-container .info-footer .huddle .logo-huddle img {
+  margin-left: 15px;
+}
+footer .footer-container .info-footer .huddle .text-lorem {
+  padding: 10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+footer .footer-container .info-footer .huddle .phone {
+  display: flex;
+}
+footer .footer-container .info-footer .huddle .phone .icon-phone {
+  width: 25%;
+  background: no-repeat 50% / 25% url('/images/icon-phone.svg');
+}
+footer .footer-container .info-footer .huddle .phone p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer .footer-container .info-footer .huddle .correo {
+  display: flex;
+}
+footer .footer-container .info-footer .huddle .correo .icon-correo {
+  width: 25%;
+  background: no-repeat 50% / 25% url('/images/icon-email.svg');
+}
+footer .footer-container .info-footer .huddle .correo p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer .footer-container .r-sociales {
+  height: 40px;
+  display: flex;
+  padding-left: 15px;
+}
+footer .footer-container .r-sociales .icon-facebook {
+  width: 50px;
+  background: no-repeat 50%/60% url('/images/icon-facebook.svg');
+  filter: invert(1);
+}
+footer .footer-container .r-sociales .icon-instagram {
+  width: 50px;
+  background: no-repeat 50%/60% url('/images/icon-instagram.svg');
+  filter: invert(1);
+}
+footer .footer-container .r-sociales .icon-twiter {
+  width: 50px;
+  background: no-repeat 50%/60% url('/images/icon-twitter.svg');
+  filter: invert(1);
 }
