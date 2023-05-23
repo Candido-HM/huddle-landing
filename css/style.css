@@ -515,6 +515,15 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     height: 70px;
     background-size: 10%;
   }
+  .container .seccion-grow .grow-info .img-grop {
+    background-size: 50%;
+  }
+  .container .seccion-flowing .img-flowing {
+    background-size: 50%;
+  }
+  .container .seccion-users .info-users .img-users {
+    background-size: 50%;
+  }
   footer .footer-container {
     height: 820px;
   }
