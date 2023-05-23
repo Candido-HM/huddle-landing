@@ -502,3 +502,37 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     height: 850px;
   }
 }
+@media screen and (min-width: 480px) {
+  .container .img-date {
+    height: 380px;
+    background-size: 70%;
+  }
+  .container .communities .img-comunities {
+    height: 70px;
+    background-size: 10%;
+  }
+  .container .messages .img-messages {
+    height: 70px;
+    background-size: 10%;
+  }
+  footer .footer-container {
+    height: 820px;
+  }
+  footer .footer-container .info-footer .huddle .phone .icon-phone {
+    width: 18%;
+    background-size: 20%;
+  }
+  footer .footer-container .info-footer .huddle .correo .icon-correo {
+    width: 18%;
+    background-size: 20%;
+  }
+  footer .footer-container .r-sociales .icon-facebook {
+    background-size: 50%;
+  }
+  footer .footer-container .r-sociales .icon-instagram {
+    background-size: 50%;
+  }
+  footer .footer-container .r-sociales .icon-twiter {
+    background-size: 50%;
+  }
+}
