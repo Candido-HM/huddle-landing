@@ -736,12 +736,6 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   }
 }
 @media screen and (min-width: 1440px) {
-  /*body{
-        max-width: 1440px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }*/
   body {
     display: flex;
     align-items: center;
@@ -750,7 +744,7 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   header {
     width: 1440px;
   }
-  main {
+  .container {
     width: 1440px;
   }
   footer {
