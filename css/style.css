@@ -684,4 +684,22 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   .container .seccion-flowing .info-flowing .flowing {
     margin-top: 0px;
   }
+  .container .seccion-users .info-users {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+  .container .seccion-users .info-users .img-users {
+    background-size: 80%;
+  }
+  .container .seccion-users .info-users .text-users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .seccion-users .info-users .text-users .users {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
+  }
 }
