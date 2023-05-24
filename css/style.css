@@ -667,4 +667,21 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     padding-right: 50px;
     margin-top: 0px;
   }
+  .container .seccion-flowing {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+  .container .seccion-flowing .img-flowing {
+    background-size: 70%;
+  }
+  .container .seccion-flowing .info-flowing {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .seccion-flowing .info-flowing .flowing {
+    margin-top: 0px;
+  }
 }
