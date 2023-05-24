@@ -706,12 +706,32 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     width: 30%;
   }
   footer .footer-container {
-    height: 550px;
+    height: 500px;
     display: flex;
     flex-direction: column;
   }
   footer .footer-container .info-footer {
     display: flex;
     flex-direction: row-reverse;
+  }
+  footer .footer-container .info-footer .subscribe {
+    padding-right: 50px;
+    margin-left: 15px;
+  }
+  footer .footer-container .info-footer .subscribe .formulario {
+    flex-direction: row;
+  }
+  footer .footer-container .info-footer .subscribe .formulario .email {
+    width: 60%;
+  }
+  footer .footer-container .info-footer .subscribe .formulario .btn-subscribe {
+    width: 30%;
+    margin-left: 15px;
+  }
+  footer .footer-container .info-footer .huddle {
+    padding-left: 50px;
+  }
+  footer .footer-container .r-sociales {
+    padding-left: 50px;
   }
 }

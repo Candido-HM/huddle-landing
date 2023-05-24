@@ -816,12 +816,32 @@ footer {
     }
     footer{
         .footer-container{
-            height: 550px;
+            height: 500px;
             display: flex;
             flex-direction: column;
             .info-footer{
                 display: flex;
                 flex-direction: row-reverse;
+                .subscribe{
+                    padding-right: 50px;
+                    margin-left: 15px;
+                    .formulario{
+                        flex-direction: row;
+                        .email{
+                            width: 60%;
+                        }
+                        .btn-subscribe{
+                            width: 30%;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+                .huddle{
+                    padding-left: 50px;
+                }
+            }
+            .r-sociales{
+                padding-left: 50px;
             }
         }
     }
