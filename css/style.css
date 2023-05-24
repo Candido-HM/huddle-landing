@@ -631,4 +631,15 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     height: 500px;
     background-size: 50%;
   }
+  .container .communities {
+    width: 50%;
+    float: right;
+  }
+  .container .messages {
+    width: 50%;
+    float: left;
+  }
+  .container .seccion-grow {
+    clear: both;
+  }
 }
