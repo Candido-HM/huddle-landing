@@ -687,7 +687,7 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   .container .seccion-users .info-users {
     height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
   .container .seccion-users .info-users .img-users {
     background-size: 80%;
@@ -701,5 +701,8 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 0px;
+  }
+  .container .ready .btn-started {
+    width: 30%;
   }
 }
