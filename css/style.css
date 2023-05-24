@@ -641,5 +641,30 @@ footer .footer-container .r-sociales .icon-twiter:hover {
   }
   .container .seccion-grow {
     clear: both;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .seccion-grow .grow-info {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "grow img_grop" "info_grop img_grop";
+  }
+  .container .seccion-grow .grow-info .img-grop {
+    grid-area: img_grop;
+    background-size: 70%;
+  }
+  .container .seccion-grow .grow-info h3 {
+    grid-area: grow;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .container .seccion-grow .grow-info .info-grow {
+    grid-area: info_grop;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
   }
 }

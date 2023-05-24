@@ -742,6 +742,33 @@ footer {
         }
         .seccion-grow{
             clear: both;
+            display: flex;
+            flex-direction: column;
+            .grow-info{
+                height: 500px;
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                grid-template-rows: repeat(2, 50%);
+                grid-template-areas: 
+                    "grow img_grop"
+                    "info_grop img_grop";
+                .img-grop{
+                    grid-area: img_grop;
+                    background-size: 70%;
+                }
+                h3{
+                    grid-area: grow;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                }
+                .info-grow{
+                    grid-area: info_grop;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    margin-top: 0px;
+                }
+            }
         }
     }
 }
