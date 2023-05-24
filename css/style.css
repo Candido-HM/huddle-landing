@@ -735,3 +735,25 @@ footer .footer-container .r-sociales .icon-twiter:hover {
     padding-left: 50px;
   }
 }
+@media screen and (min-width: 1440px) {
+  /*body{
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }*/
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  header {
+    width: 1440px;
+  }
+  main {
+    width: 1440px;
+  }
+  footer {
+    width: 1440px;
+  }
+}
